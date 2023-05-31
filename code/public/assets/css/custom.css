@@ -1,0 +1,87 @@
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+
+.header {
+  padding: 0;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.main-nav .container .row {
+  background: #ec0000;
+  border-top: 0px;
+}
+
+.main-nav .container .row .header-line {
+  width: 100%;
+  height: 8px;
+}
+
+ul.navbar-nav > li > a,
+.nav-search {
+  color: #fff;
+}
+
+.container-bg {
+  background-color: #fff;
+}
+
+.section-bg {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section-bg .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-nav > .container > .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.page-title {
+  z-index: 1;
+  position: relative;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.navbar-nav {
+  padding: 0 15px !important;
+}
+
+.dropdown-menu a {
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .dropdown-menu a {
+    color: #333 !important;
+  }
+
+  .dropdown-menu > li > a:hover, 
+  .dropdown-menu > li > a:focus {
+    color: #fff !important;
+  }
+}
